@@ -1,0 +1,88 @@
+body{
+
+	background-image: url(photos/background.jpg);
+	/*https://unsplash.com/photos/6JVh2UzHDns*/
+  padding: 0;
+  margin: 0;
+}
+
+header{
+
+  color: white;
+	text-align: center;
+	font-style: italic;
+	font-size: 4vw;
+  text-shadow: -3px -2px 0 #000, 1px -1px 0 #000, -3px 2px 0 #000, 1px 1px 0 #000;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+h3{
+
+  margin-top: -1%;
+  color: lightsalmon;
+
+}
+
+#logo1{
+
+  margin-top: -5%;
+  width: 8vw;
+  height: 8vw;
+  border: solid;
+  border-color: black;
+
+}
+
+#images{
+
+	text-align: center;
+	margin: auto;
+  border: solid;
+  border-width: 5px;
+  border-color: black;
+  height: 600px;
+  width: 600px;
+
+
+
+}
+
+#captions{
+
+  text-align: center;
+  font-size: 3vw;
+  color: lightsalmon;
+  background-color: ghostwhite;
+  font-style: italic;
+
+}
+
+footer{
+
+  text-align: center;
+  margin: auto;
+  font-size: 2.5vw;
+  color: blanchedalmond;
+  background-color: black;
+  margin-bottom:-5%;
+}
+
+.images1 {
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
